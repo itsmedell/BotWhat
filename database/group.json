@@ -1,1 +1,130 @@
-[]
+[
+    {
+        "from": "6283175385188-1589889287@g.us",
+        "offline": false,
+        "antilink": false,
+        "badword": false,
+        "antidelete": false,
+        "detect": false,
+        "viewOnce": false,
+        "nsfw": false,
+        "leveling": false,
+        "welcome": {
+            "status": false,
+            "add": "Welcome To My Group",
+            "remove": "Leave From My Group"
+        }
+    },
+    {
+        "from": "6285958055704-1629778971@g.us",
+        "offline": false,
+        "antilink": false,
+        "badword": false,
+        "antidelete": false,
+        "detect": false,
+        "viewOnce": false,
+        "nsfw": false,
+        "leveling": false,
+        "welcome": {
+            "status": false,
+            "add": "Welcome To My Group",
+            "remove": "Leave From My Group"
+        }
+    },
+    {
+        "from": "120363116881297926@g.us",
+        "offline": false,
+        "antilink": true,
+        "badword": false,
+        "antidelete": false,
+        "detect": false,
+        "viewOnce": false,
+        "nsfw": false,
+        "leveling": false,
+        "welcome": {
+            "status": true,
+            "add": "Welcome To My Group",
+            "remove": "Leave From My Group"
+        }
+    },
+    {
+        "from": "120363107268508268@g.us",
+        "offline": false,
+        "antilink": false,
+        "badword": false,
+        "antidelete": false,
+        "detect": false,
+        "viewOnce": false,
+        "nsfw": false,
+        "leveling": false,
+        "welcome": {
+            "status": true,
+            "add": "Welcome To My Group",
+            "remove": "Leave From My Group"
+        }
+    },
+    {
+        "from": "120363131607585692@g.us",
+        "offline": false,
+        "antilink": false,
+        "badword": false,
+        "antidelete": false,
+        "detect": false,
+        "viewOnce": false,
+        "nsfw": false,
+        "leveling": false,
+        "welcome": {
+            "status": false,
+            "add": "Welcome To My Group",
+            "remove": "Leave From My Group"
+        }
+    },
+    {
+        "from": "6285524529872-1591937201@g.us",
+        "offline": false,
+        "antilink": false,
+        "badword": false,
+        "antidelete": false,
+        "detect": false,
+        "viewOnce": false,
+        "nsfw": false,
+        "leveling": false,
+        "welcome": {
+            "status": false,
+            "add": "Welcome To My Group",
+            "remove": "Leave From My Group"
+        }
+    },
+    {
+        "from": "120363132055977458@g.us",
+        "offline": false,
+        "antilink": false,
+        "badword": false,
+        "antidelete": false,
+        "detect": false,
+        "viewOnce": false,
+        "nsfw": false,
+        "leveling": false,
+        "welcome": {
+            "status": true,
+            "add": "Welcome To My Group",
+            "remove": "Leave From My Group"
+        }
+    },
+    {
+        "from": "120363069087000715@g.us",
+        "offline": false,
+        "antilink": false,
+        "badword": false,
+        "antidelete": false,
+        "detect": false,
+        "viewOnce": false,
+        "nsfw": false,
+        "leveling": false,
+        "welcome": {
+            "status": false,
+            "add": "Welcome To My Group",
+            "remove": "Leave From My Group"
+        }
+    }
+]

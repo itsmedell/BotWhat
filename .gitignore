@@ -1,6 +1,0 @@
-# modules
-node_modules/
-
-# lock files
-*-lock.json
-yarn.lock

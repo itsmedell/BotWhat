@@ -6,6 +6,7 @@ module.exports = {
     use: "<query>",
     desc: "Latest or Random or Search Anime From Nekopoi",
     type: "animeweb",
+    isPremium: true,
     example: `\nNekopoi Latest : %prefix%command\nNekopoi Search : %prefix%command <query>\nNekopoi Random : %prefix%command random `,
     start: async (killua, m, { text }) => {
         if (text.toLowerCase() === "random") {

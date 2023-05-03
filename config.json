@@ -1,21 +1,21 @@
 {
   "APIs": {
     "zenz": "https://api.zahwazein.xyz",
-    "apikey": "YOURAPIKEY"
+    "apikey": "zenzkey_59d1f1b4bf"
   },
   "options": {
     "autoRead": true,
     "self": false,
-    "limitCount": 20,
-    "limitGame": 20
+    "limitCount": 60,
+    "limitGame": 3
   },
   "exif": {
-    "packname": "Killua Zoldyck",
-    "author": "https://api.zahwazein.xyz"
+    "packname": "SiapaAku?",
+    "author": "081224863098"
   },
   "owner": [
-    "62812XXX"
+    "6281224863098"
   ],
   "timezone": "Asia/Jakarta",
-  "footer": "Powered by https://api.zahwazein.xyz"
+  "footer": "Powered by Dellas"
 }
