@@ -74,8 +74,8 @@
         "nsfw": false,
         "leveling": false,
         "welcome": {
-            "status": false,
-            "add": "Welcome To My Group",
+            "status": true,
+            "add": "*Hallo @user Untuk menampilkan price list top up diamond games ketikan .list*",
             "remove": "Leave From My Group"
         }
     },
@@ -124,6 +124,22 @@
         "welcome": {
             "status": false,
             "add": "Welcome To My Group",
+            "remove": "Leave From My Group"
+        }
+    },
+    {
+        "from": "120363151293745829@g.us",
+        "offline": false,
+        "antilink": true,
+        "badword": false,
+        "antidelete": false,
+        "detect": false,
+        "viewOnce": false,
+        "nsfw": false,
+        "leveling": false,
+        "welcome": {
+            "status": true,
+            "add": "*Hallo Untuk menampilkan price list top up diamond games ketikan .list*",
             "remove": "Leave From My Group"
         }
     }

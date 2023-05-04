@@ -5,6 +5,7 @@ module.exports = {
     desc: "listMessage More Random Image NSFW",
     type: "morensfw",
     example: "%prefix%command",
+    isPremium: true,
     start: async(killua, m, {}) => {
         const sections = [{
             title: "Morensfw",

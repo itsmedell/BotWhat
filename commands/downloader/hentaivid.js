@@ -7,7 +7,7 @@ module.exports = {
     type: "downloader",
     example: "%prefix%command",
     isPremium: true,
-    start: async(killua, m, {}) => {
+    start: async(killua, m, text, {}) => {
         if (text.toLowerCase() === "longer") {
             let fetch = await fetchUrl(global.api("zenz", "/downloader/hentaivid/longer", {}, "apikey"))
             let teks = `⭔ Title : ${fetch.result.title}\n⭔ Category : ${fetch.result.category}\n⭔ Share : ${fetch.result.share_count}\n⭔ Views : ${fetch.result.views_count}`

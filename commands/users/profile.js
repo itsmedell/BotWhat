@@ -1,4 +1,8 @@
 const ms =require("parse-ms")
+
+function pickRandom(list) {
+    return list[Math.floor(Math.random() * list.length)]
+}
 module.exports = {
     name: "profile",
     alias: ["me"],
@@ -11,15 +15,12 @@ module.exports = {
 		try {
 			statuses = await killua.fetchStatus(m.sender);
 		} catch {
-			statuses = "Nothing.."
+			statuses = "*Bego infonya di private..*"
 		}
-		let cekprem = require("parse-ms")((await premium.getPremiumExpired(m.sender, _premium)) - Date.now())
-		const premi = isPremium ? `-${cekprem.days} Days` : 'No'
-		const level = 10
-		const xp = 50
-		const req = 20 * Math.pow(level, 2) + 50 * level + 100
-		const limitnya = isPremium || isOwner ? 'Unlimited' : user.getLimit(m.sender, _user)
-		const balance = user.getBalance(m.sender, _user)
+	    const role = `${pickRandom(['Exp', 'Gold', 'Mid', 'Jungle', 'All Role', 'Roamer'])}`
+        const mood = `${pickRandom(['Good', 'Bad', 'Sange', 'Random', 'Happy Happy', 'Mager'])}`
+		const tanya = ['Babi', 'Memek', 'Kontol', 'Si Ganteng', 'Si Cantik', 'Si Imut', 'Si Lucu', 'Lord', 'Bandar Bokep']
+                const jawab = tanya[Math.floor(Math.random() * tanya.length)]
 		try {
 			var pp = await killua.profilePictureUrl(m.sender, "image");
 		} catch {
@@ -29,15 +30,22 @@ module.exports = {
 		caption += `│\n`
 		caption += `│⭔ Username : ${m.pushName}\n`
 		caption += `│⭔ About : ${statuses.status || statuses}\n`;
-		caption += `│⭔ Role : Warrior\n`
-		caption += `│⭔ Premium : ${premi}\n`
-		caption += `│\n`
-		caption += `│⭔ Level : ${level}\n`
-		caption += `│⭔ Xp : ${xp} / ${req}\n`
-		caption += `│⭔ Limit : ${limitnya}\n`
-		caption += `│⭔ Balance : ${balance}\n`
+		caption += `│⭔ Role : ${role}\n`
+		caption += `│⭔ Julukan : ${jawab}\n`
+		caption += `│⭔ Mood : ${mood}\n`
 		caption += `│\n`
 		caption += `└───────⭓\n`
-		killua.sendFile(m.from, pp, "", m, { caption })
+		
+		let buttons = [
+                {buttonId: `mnsfwmenu`, buttonText: {displayText: '\n\nAku lagi sange'}, type: 1}
+            ]
+            let buttonMessage = {
+                image: { url : pp },
+                caption: caption,
+                footer: config.footer,
+                buttons: buttons,
+                headerType: 4
+            } 
+            killua.sendMessage(m.from, buttonMessage, { quoted: m })
     }
 }
